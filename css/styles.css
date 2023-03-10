@@ -1,3 +1,25 @@
+h1,h2,h3,p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15;
+    padding-right: 15;
+}
 .list {
     list-style: none;
 }
@@ -11,6 +33,13 @@ body {
     }
 /* =======================COMPONENTS=======================*/
 .btn {
+    display: flex;    
+    margin-bottom: 188px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
     font-family:'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -41,7 +70,8 @@ body {
     background-color: #404BBF;
     color: #FFFFFF;
 }
-.caption {
+.caption {    
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
@@ -50,6 +80,8 @@ body {
     text-transform: capitalize;
 }
 .title {
+    margin-top: 32px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -67,7 +99,26 @@ body {
 }
 /* =======================/COMPONENTS=======================*/
 /* =======================HEADER=======================*/
+.header {    
+    padding-top: 24px;
+cont    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.page-heder-cantainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
 .logo {
+    margin-right: 76px;
     font-family:'Raleway', sans-serif; 
     font-weight: 800;
     font-size: 18px;
@@ -85,7 +136,7 @@ body {
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.menu-link {
+.menu-link {    
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -99,7 +150,16 @@ body {
     letter-spacing: 0.02em;
     color: #404BBF;           
 }
+.menu-item:not(:last-child) {
+    margin-right: 40px;
+}
+.mar {
+    display: flex;
+    
+
+}
 .contact {
+    margin-left: 40px;
     font-style: normal;    
     line-height: 1.5;      
     letter-spacing: 0.02em;
@@ -112,13 +172,52 @@ body {
 }
 /* =======================/HEADER=======================*/
 /* =======================HERO=======================*/
+.hero {   
+    margin-top: 41px;
+    width: 1440px;
+    height: 600px; 
+    background: #2E2F42; 
+
+}
 .title-hero {
+    padding-top: 188px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    /* margin-top: 188px;
+    margin-bottom: 48px; */
+    width: 496px;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 /* =======================/HERO=======================*/
+.container-feature {   
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.feature {
+    display: flex;     
+    justify-content: space-between; 
+}
+.img-list {
+    display: flex;
+    gap: 24;
+    /* justify-content: space-between; */
+    padding-bottom: 120px;
+}
+.team {
+    background-color: #F4F4FD;
+}
+.team-avatar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;    
+}
+.avatar {
+    /* background-color: #FFFFFF; */
+}
