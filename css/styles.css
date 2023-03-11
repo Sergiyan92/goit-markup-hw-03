@@ -67,6 +67,7 @@ body {
     color:#FFFFFF;
 }
 .btn-navigation {
+    padding: 12px 24px;
     font-family: 'Roboto', sans-serif; 
     font-size: 16px;
     font-weight: 500;    
@@ -83,7 +84,7 @@ body {
     color: #FFFFFF;
 }
 .caption {
-    padding-top: 120px;
+    padding-top: 120px;    
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
@@ -93,8 +94,10 @@ body {
     text-transform: capitalize;
 }
 .title {
-    margin-top: 32px;
+    padding-top: 32px;
+    /* margin-top: 32px; */
     margin-bottom: 8px;
+    margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -105,6 +108,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     margin-bottom: 32px;
+    margin-left: 16px;
 }
 .text-theme-dark {
     margin-top: 17px;
@@ -209,6 +213,7 @@ body {
 /* =======================/HERO=======================*/
 .container-feature {   
     padding-top: 120px;
+    
 }
 .feature {    
     display: flex;     
@@ -222,10 +227,7 @@ body {
 .team {   
     background-color: #F4F4FD;
     width: 1440px;  
-    padding-bottom: 120px;
-    
-    
-    
+    padding-bottom: 120px;    
 }
 .team-avatar {
     text-align: center;    
@@ -234,11 +236,10 @@ body {
     display: flex;
     gap: 24px;  
 }
-.avatar {
-    
+.avatar {   
      background-color: #fff;     
      box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+     border-radius: 0px 0px 4px 4px;
     }
 .footer {
     width: 1440px;
@@ -259,4 +260,25 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;        
     color:#F4F4FD;
+}
+.navigation {
+    display: flex;
+    gap: 24px;
+    margin-top: 96px;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+.apply {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 96px;
+    flex-wrap: wrap;    
+}
+.aply-card {
+    margin-bottom: 24px;
+}
+.cards {
+        border-bottom: 1px solid #E7E9FC;
+        border-left: 1px solid #E7E9FC;
+        border-right: 1px solid #E7E9FC;
 }
